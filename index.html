@@ -1,38 +1,45 @@
 <!DOCTYPE html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <title>Bootstrap</title>
 </head>
+
 <body>
     <div class="container-fluid">
-        <header class="row px-1 vh-100 "> 
+        <header class="row px-1 vh-100 ">
             <div class="col px-1 d-flex flex-column align-items-center">
                 <nav class="w-75 navbar navbar-expand-lg bg-white justify-content-between">
-                        <a class="navbar-brand" href="#">
-                            <img src="./icons/logo.png" alt="" width="40" height="50"
-                                class="d-inline-block align-text-top">
-                        </a>
-                        <ul class="navbar-nav flex-row gap-3">
-                            <li class="nav-item">
-                                <a class="nav-link text-primary" aria-current="page" href="#scrollspyHeading1">Portfolio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-primary" href="#scrollspyHeading2">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-primary" href="#scrollspyHeading3">Contact</a>
-                            </li>
-                        </ul>
+                    <a class="navbar-brand" href="#">
+                        <h4 class="text-primary">Our Logo</h4>
+
+                    </a>
+                    <ul class="navbar-nav flex-row gap-3">
+                        <li class="nav-item">
+                            <a class="nav-link text-primary" aria-current="page" href="#scrollspyHeading1">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-primary" href="#scrollspyHeading2">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-primary" href="#scrollspyHeading3">Contact</a>
+                        </li>
+                    </ul>
                 </nav>
                 <div class="container-fluid d-flex h-75 justify-content-center align-items-center" id="header">
                     <div class="w-100 w-lg-50 h-25 gap-2 px-2">
-                            <h1 class="text-primary">We are Martin and Zelalem <br> Glad to see you!</h1>
-                            <p class="text-primary w-100">We are software developers! We can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact us.</p>
-                            <div class="w-25 text-primary"><p>Let's&nbsp;connect</p></div>
+                        <h1 class="text-primary">We are Martin and Zelalem <br> Glad to see you!</h1>
+                        <p class="text-primary w-100">We are software developers! We can help you build a product ,
+                            feature or website Look through some of my work and experience! If you like what you see and
+                            have a project you need coded, don’t hestiate to contact us.</p>
+                        <div class="w-25 text-primary">
+                            <p>Let's&nbsp;connect</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -44,43 +51,118 @@
 
 
 
+            <!-- About page -->
+
+            <section id="scrollspyHeading2"
+                class="container-fluid bg-white p-3 p-lg-5 m-lg-5 vh-100 d-flex justify-content-center align-items-center">
+                <div class="row p-3 h-75">
+                    <div class="col-12 col-lg-5">
+                        <div>
+                            <h3 class="text-primary">About us</h3>
+                            <p class="text-primary">Hello We are a software developers! We can help you build a product ,
+                                feature or website Look through some of our work and experience! If you like what you see
+                                and have a project you need coded, don’t hestiate to contact one of us.</p>
+                            <h4 class="text-primary">Lets connect</h4>
+                            <ul id="socials" class="navbar-nav flex-row">
+                                <li class="nav-item p-3"><a class="nav-link" href=""><img src="images/icons/Github-icon.png"
+                                            alt="github"></a></li>
+                                <li class="nav-item p-3"><a class="nav-link" href=""><img
+                                            src="images/icons/Linkedin-icon.png" alt="LinkedIn"></a></li>
+                                <li class="nav-item p-3"><a class="nav-link" href=""><img src="images/icons/Like-icon.png"
+                                            alt="angelist"></a></li>
+                                <li class="nav-item p-3"><a class="nav-link" href=""><img src="images/icons/Twitter-icon.png"
+                                            alt="twitter"></a></li>
+                                <li class="nav-item p-3"><a class="nav-link" href=""><img src="images/icons/Mail-icon.png"
+                                            alt="Medium"></a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-lg-7">
+                        <div class="d-flex justify-content-between">
+                            <h3 class="text-primary">Languages</h3>
+                            <button class="btn btn-white" type="button">
+                                <img src="images/icons/Union.png" alt="right">
+                            </button>
+                        </div>
+                        <ul id="languages" class="navbar-nav flex-row justify-content-between  g-3 w-50">
+                            <li class="nav-item "><a class="badge nav-link" href="">
+                                    <img src="images/icons/js.png" alt="js">
+                                    <h6 class="text-secondary">Javascript</h6>
+                                </a></li>
+                            <li class="nav-item"><a class="badge nav-link" href="">
+                                    <img src="images/icons/html.png" alt="html">
+                                    <h6 class="text-secondary">html</h6>
+                                </a></li>
+                            <li class="nav-item"><a class="badge nav-link" href="">
+                                    <img src="images/" alt="css">
+                                    <h6 class="text-secondary">css</h6>
+                                </a></li>
+                        </ul>
+                        <div class="d-flex justify-content-between">
+                            <h3 class="text-primary">Frameworks</h3>
+                            <button class="btn btn-white" type="button">
+                                <img src="images/icons/Union1.png" alt="right">
+                            </button>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <h3 class="text-primary">Skills</h3>
+                            <button class="btn btn-white" type="button">
+                                <img src="images/icons/Union1.png" alt="right">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+    </div>
+    </section>
 
 
 
 
-            <section class="text-white bg-info " style="background-color: #6070FF!important;">
-                <div class="row form d-flex justify-content-center">
-                <div class="col-6 mt-5 flex-column">
+
+
+
+
+    <section class="text-white bg-info " style="background-color: #6070FF!important;">
+        <div class="row form d-flex justify-content-center">
+            <div class="col-6 mt-5 flex-column">
                 <div class="form-heading d-flex justify-content-center flex-column px-5 pt-5">
-                <h1 class="text-center"> Contact Us</h1>
-                <p class="text-justify">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it</p>
-                <form class="needs-validation" novalidate>
-                  <div class="form-row">
-                    <div class="col-md-12 mb-3">
-                      <label for="validationTooltip03"> </label>
-                      <input type="text" class="form-control" id="validationTooltip03" placeholder="Alexandra Loremipsum" required>
-                      <div class="invalid-tooltip">
-                        Please provide a valid city.
-                      </div>
-                    </div>
-                    <div class="col-md-12 mb-3">
-                      <label for="validationTooltip04"></label>
-                      <input type="text" class="form-control" id="validationTooltip04" placeholder="alexandra@gmail.com" required>
-                      <div class="invalid-tooltip">
-                        Please provide a valid state.
-                      </div>
-                    </div>
-                    <textarea class="form-control" aria-label="Write your message here"></textarea>
+                    <h1 class="text-center"> Contact Us</h1>
+                    <p class="text-justify">If you have an application you are interested in developing, a feature that
+                        you need built or a project that needs coding. I’d love to help with it</p>
+                    <form class="needs-validation" novalidate>
+                        <div class="form-row">
+                            <div class="col-md-12 mb-3">
+                                <label for="validationTooltip03"> </label>
+                                <input type="text" class="form-control" id="validationTooltip03"
+                                    placeholder="Alexandra Loremipsum" required>
+                                <div class="invalid-tooltip">
+                                    Please provide a valid city.
+                                </div>
+                            </div>
+                            <div class="col-md-12 mb-3">
+                                <label for="validationTooltip04"></label>
+                                <input type="text" class="form-control" id="validationTooltip04"
+                                    placeholder="alexandra@gmail.com" required>
+                                <div class="invalid-tooltip">
+                                    Please provide a valid state.
+                                </div>
+                            </div>
+                            <textarea class="form-control" aria-label="Write your message here"></textarea>
+                        </div>
                 </div>
-                  </div>
-                  <button class="btn btn-primary " type="submit" style="margin-left: 50px;margin-top: 20px;margin-bottom: 20px;">Submit form</button>
+                <button class="btn btn-primary " type="submit"
+                    style="margin-left: 50px;margin-top: 20px;margin-bottom: 20px;">Submit form</button>
                 </form>
-                </div>
-                </div>
-                </div>
-                </section>
-                
-                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+            </div>
+        </div>
+        </div>
+    </section>
 
-        </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+</body>
+
 </html>
