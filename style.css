@@ -2,3 +2,9 @@
   margin: 0;
   padding: 0;
 }
+.zola {
+  font-family: 'poppins',sans-serif;
+  font-weight: 700;
+  font-size: 46px;
+  color:  #091E42;
+}
